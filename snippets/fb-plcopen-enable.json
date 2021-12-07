@@ -1,7 +1,7 @@
 {
     "plcopen enable function block": {
       "scope": "javascript,typescript,st, St, ST",
-      "prefix": ["plcopen", "enable"],
+      "prefix": ["plcopen enable", "enable"],
       "body": [
           "FUNCTION_BLOCK ${TM_FILENAME/(.*)\\..+$/$1/}",
           "\tVAR_INPUT",

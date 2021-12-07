@@ -1,7 +1,7 @@
 {
     "plcopen execute function block": {
         "scope": "javascript,typescript,st, St, ST",
-        "prefix": ["plcopen", "execute"],
+        "prefix": ["plcopen execute", "execute"],
         "body": [
             "FUNCTION_BLOCK ${TM_FILENAME/(.*)\\..+$/$1/}",
             "\tVAR_INPUT",
