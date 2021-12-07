@@ -7,6 +7,9 @@ A collection of useful st snippets
 ```
 apax add @simatic-ax/snippetscollection
 ```
+
+> for installing this package you need to login into the GitHub registry. You'll find more informatio [here](https://github.com/simatic-ax/.github/blob/main/doc/personalaccesstoken.md) 
+
 ## Snippets Namespace Support
 
 ### NamespaceSupport
