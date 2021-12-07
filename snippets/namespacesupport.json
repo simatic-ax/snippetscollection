@@ -1,0 +1,12 @@
+{
+    "NamespaceSupport": {
+    "scope": "javascript,typescript,st",
+    "prefix": ["namespace, Siemens"],
+    "body": [
+        "NAMESPACE ${1:Simatic.Ax}",
+        "\t$2",
+        "END_NAMESPACE$0"
+    ],
+    "description": "Creates an namespace template"
+    }    
+}

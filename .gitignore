@@ -1,0 +1,7 @@
+.apax/
+.env/
+[Bb]in/
+[Ll]ibrary/
+[Tt]est[Rr]esult*/
+*.tgz
+*.tracerec.json

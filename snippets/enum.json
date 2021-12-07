@@ -1,0 +1,12 @@
+{
+    "enumTemplate": {
+        "scope": "javascript,typescript,st, St, ST",
+        "prefix": ["enum", "type Enumeration type"],
+        "body": [
+            "TYPE",
+            "\tColours : (RED, GREEN, BLUE) := RED;",
+            "END_TYPE"
+        ],
+        "description": "enumeration type"
+    }
+}

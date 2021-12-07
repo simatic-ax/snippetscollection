@@ -1,0 +1,4 @@
+include:
+  - project: 'ax-showcase/shared-scripts'
+    ref: stable
+    file: '/templates/.gitlab-ci-library-projects.yml'

@@ -1,0 +1,11 @@
+{
+"VarSectionsSupport": {
+    "prefix": ["var_ for config, method, function, function block"],
+    "body": [
+      "${1|VAR,VAR_INPUT,VAR_OUTPUT,VAR_IN_OUT,VAR_TEMP,VAR_GLOBAL,VAR_EXTERNAL,VAR CONSTANT|}",
+      "\t",
+      "END_VAR$0"
+    ],
+    "description": "Variable sections for method, functions, function blocks, configuration, program"
+  }
+}

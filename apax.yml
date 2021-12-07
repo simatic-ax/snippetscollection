@@ -1,0 +1,26 @@
+name: '@simatic-ax/snippetscollection'
+version: 0.0.1
+author: Siemens AG
+type: lib
+variables:
+  APAX_BUILD_ARGS:
+    - '--log Trace'
+
+targets:
+  - '1500'
+  - 'plcsim'
+  - 'axunit-llvm'
+  - 'llvm'
+
+devDependencies:
+  '@ax/sdk': 0.2.449
+
+registries:
+  '@ax-showcase': 'https://npm.pkg.github.com/'
+
+files:
+  - 'README.md'
+  - 'LICENSE.md'
+  - 'Legal.md'
+  - 'doc'
+  - 'snippets'

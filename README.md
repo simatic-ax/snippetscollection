@@ -1,7 +1,12 @@
-# Siemens.AX.Snippets
+# Snippets collection
 
 A collection of useful st snippets
 
+## Usage of the snippets collection
+
+```
+apax add @simatic-ax/snippetscollection
+```
 ## Snippets Namespace Support
 
 ### NamespaceSupport
@@ -13,7 +18,7 @@ A collection of useful st snippets
 ## Snippets for class suport
 Output:
 ```iecst
-NAMESPACE Siemens.Ax
+NAMESPACE Simatic.Ax
     
 END_NAMESPACE
 ```
@@ -27,7 +32,7 @@ END_NAMESPACE
 
 Output:
 ```iecst
-NAMESPACE Siemens.Ax
+NAMESPACE Simatic.Ax
     CLASS Untitled
         VAR PUBLIC
             

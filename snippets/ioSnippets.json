@@ -1,0 +1,30 @@
+{
+"IoSnippets": {
+    "prefix": ["io bool"],
+    "body": [
+      "${1:myBool} AT %${2|I,Q|}${3:0}.${4:0} : BOOL;"
+    ],
+    "description": "IO variable in var global to bit address"
+  },
+  "IoSnippetsByte": {
+    "prefix": ["io byte"],
+    "body": [
+      "${1:myByte} AT %${2|IB,QB|}${3:0} : BYTE;"
+    ],
+    "description": "IO variable in var global to byte address"
+  },
+  "IoSnippetsWord": {
+    "prefix": ["io word"],
+    "body": [
+      "${1:myWord} AT %${2|IW,QW|}${3:0} : WORD;"
+    ],
+    "description": "IO variable in var global to word address"
+  },
+  "IoSnippetsDWord": {
+    "prefix": ["io dword"],
+    "body": [
+      "${1:myDword} AT %${2|ID,QD|}${3:0} : DWORD;"
+    ],
+    "description": "IO variable in var global to dword address"
+  }
+}
