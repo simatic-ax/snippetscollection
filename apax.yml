@@ -1,7 +1,7 @@
 name: '@simatic-ax/snippetscollection'
-version: 0.0.1
+version: 0.0.3
 author: Siemens AG
-type: lib
+type: generic
 variables:
   GITHUB_REG_URL: "https://npm.pkg.github.com"
 
@@ -16,10 +16,10 @@ scripts:
     - apax publish --package *.apax.tgz --registry $GITHUB_REG_URL
     - rm *.apax.tgz -f
 
-
-
-devDependencies:
-  '@ax/sdk': 0.2.449
+  createpackage:
+    - apax version $1
+    - apax pack
+    - apax publishlib
 
 registries:
   '@ax-showcase': 'https://npm.pkg.github.com/'
@@ -27,6 +27,5 @@ registries:
 files:
   - 'README.md'
   - 'LICENSE.md'
-  - 'Legal.md'
   - 'doc'
   - 'snippets'
