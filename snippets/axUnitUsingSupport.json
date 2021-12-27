@@ -5,6 +5,6 @@
     "body": [
         "USING AxUnit.Assert;$0"
     ],
-    "description": "Creates an namespace template"
+    "description": "Create USING AxUnit.Assert;"
     }    
 }
