@@ -1,0 +1,10 @@
+{
+    "AssertionsSupport": {
+    "scope": "javascript,typescript,st",
+    "prefix": ["eq, ne, lt, gt"],
+    "body": [
+        "${1|Equal,NotEqual,LessThan,GreaterThan|}(expected := ${2:0}, actual := ${3:0});$0"
+    ],
+    "description": "Creates an namespace template"
+    }    
+}
