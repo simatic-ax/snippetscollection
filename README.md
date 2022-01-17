@@ -1,16 +1,42 @@
 # Snippets collection
 
 A collection of useful user defined snippets for AX Code. 
+## Install the snippets collection
 
-## Installthe snippets collection
-
-To install the snippets collection to your workspace enter the follwing command in a terminal:
+To install the snippets collection to your workspace enter the following command in a terminal:
 
 ```
 apax add @simatic-ax/snippetscollection
 ```
 
 > to install this package you need to login into the GitHub registry. You'll find more information [here](https://github.com/simatic-ax/.github/blob/main/doc/personalaccesstoken.md) 
+
+## AXUnitSupport
+
+### Insert Using AxUnit.Assert
+```json
+"prefix": ["AxUnit, using ax"]
+```
+
+Output:
+```iecst
+USING AxUnit.Assert;
+```
+
+### AxUnit assertions 
+```json
+"prefix": ["eq, ne, lt, gt"]
+```
+
+Output:
+```iecst
+Equal(expected := 0, actual := 0);
+NotEqual(expected := 0, actual := 0);
+LessThan(expected := 0, actual := 0);
+GreaterThan(expected := 0, actual := 0);
+```
+
+
 
 ## Snippets Namespace Support
 
@@ -25,7 +51,7 @@ NAMESPACE Simatic.Ax
     
 END_NAMESPACE
 ```
-### Snippets for class suport
+### Snippets for class support
 ```json
 "prefix" : ["class template, End_Class"]
 ```
@@ -81,7 +107,7 @@ END_VAR
 ```
 
 
-### VAR Sections within methods and functions
+### VAR sections within methods and functions
 ```json
 "prefix" : ["vari"]
 ```
@@ -177,7 +203,7 @@ END_FUNCTION_BLOCK
 ## Contribution
 Thanks for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section or, even better, is free to propose any changes to this repository using Merge Requests.
 
-## Licence and Legal information
+## License and Legal information
 
 Please read the [Legal information](LICENSE.md)
 

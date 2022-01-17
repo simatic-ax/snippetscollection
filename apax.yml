@@ -1,5 +1,5 @@
 name: '@simatic-ax/snippetscollection'
-version: 0.0.3
+version: 0.0.6
 author: Siemens AG
 type: generic
 variables:
@@ -19,7 +19,6 @@ scripts:
   createpackage:
     - apax version $1
     - apax pack
-    - apax publishlib
 
 registries:
   '@ax-showcase': 'https://npm.pkg.github.com/'
@@ -27,5 +26,6 @@ registries:
 files:
   - 'README.md'
   - 'LICENSE.md'
+  - 'changelog.md'
   - 'doc'
   - 'snippets'
