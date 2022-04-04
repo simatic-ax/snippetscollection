@@ -4,7 +4,7 @@
         "prefix": ["enum", "type Enumeration type"],
         "body": [
             "TYPE",
-            "\tColours : (RED, GREEN, BLUE) := RED;",
+            "\t${1:Colours} : (${2:RED}, ${3:GREEN}, ${4:BLUE}$0) := ${2:RED};",
             "END_TYPE"
         ],
         "description": "enumeration type"

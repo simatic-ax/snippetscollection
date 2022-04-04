@@ -4,8 +4,8 @@
   "prefix": ["method, no return"],
   "body": [
       "${1|METHOD PUBLIC,METHOD PRIVATE,METHOD PROTECTED|} ${2:MyMethod}",
-      "\t;",
-      "END_METHOD$0"
+      "\t$0;",
+      "END_METHOD"
   ],
   "description": "Creates a template of method without return value"
 },
@@ -14,8 +14,8 @@
   "prefix": ["method, with return"],
   "body": [
       "${1|METHOD PUBLIC,METHOD PRIVATE,METHOD PROTECTED|} ${2:MyMethod} : ${3|BOOL,INT,LREAL,WORD,REAL,DINT,UINT,SINT|}",
-      "\t $LINE_COMMENT MyMethod := ;",
-      "END_METHOD$0"
+	  "\t${2:MyMethod} := $0;",
+      "END_METHOD"
   ],
   "description": "Creates a template of method with return value"
 }
