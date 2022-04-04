@@ -1,0 +1,19 @@
+{
+    "AssertionsSupport EQ/NE": {
+    "scope": "javascript,typescript,st",
+    "prefix": ["eq, ne"],
+    "body": [
+        "${1|Equal,NotEqual|}(expected := ${2:TRUE}, actual := ${3:TRUE});$0"
+    ],
+    "description": "Create an Equal/NotEqual assertion"
+    },
+    "AssertionsSupport Gt/LT": {
+        "scope": "javascript,typescript,st",
+        "prefix": ["lt, gt"],
+        "body": [
+            "${1|LessThan,GreaterThan|}(left := ${2:0.0}, right := ${3:0.0});$0"
+        ],
+        "description": "Create an Equal/NotEqual assertion"
+    }
+
+}

@@ -1,0 +1,10 @@
+{
+    "USINGAxUnit": {
+    "scope": "javascript,typescript,st",
+    "prefix": ["AxUnit, using ax"],
+    "body": [
+        "USING AxUnit.Assert;$0"
+    ],
+    "description": "Create USING AxUnit.Assert;"
+    }    
+}
