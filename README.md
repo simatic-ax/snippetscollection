@@ -18,7 +18,9 @@ apax add @simatic-ax/snippetscollection
 "prefix": ["AxUnit test-fixture"]
 ```
 
+Output example:
 
+![io](doc/img/ax_test-fixture.gif)
 
 ### Insert Using AxUnit.Assert
 ```json
