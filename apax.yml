@@ -29,3 +29,5 @@ files:
   - 'changelog.md'
   - 'doc'
   - 'snippets'
+dependencies:
+  "@ax/sdk": ^1.0.165
