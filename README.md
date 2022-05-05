@@ -137,11 +137,9 @@ END_TYPE
 
 Support for creating IO Tags in the VAR_GLOBAL section. Suported types `BOOL`, `BYTE`, `WORD`, `DWORD`
 
-Output:
-```iec-st
-myDword AT %ID0 : DWORD;
-myByte AT %QB0 : BYTE;
-```
+Output example:
+
+![io](doc/img/io_snippet.gif)
 
 ## PLCopen interface 
 
