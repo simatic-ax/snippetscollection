@@ -1,0 +1,27 @@
+{
+  "test-fixture": {
+  "scope": "javascript,typescript,st",
+  "prefix": ["AxUnit test-fixture"],
+  "body": [
+      "USING AxUnit.Assert;",
+      "",
+      "NAMESPACE Simatic.Ax.${1:Test}",
+      "",
+      "\t{TestFixture}",
+      "\tCLASS ${TM_FILENAME/(.*)\\..+$/$1/}",
+      "",
+      "\t\tVAR PROTECTED",
+      "\t\t\t//o : <test instance>; //your test instance",
+      "\t\tEND_VAR",
+      "\t",
+      "\t\tMETHOD PUBLIC ${2:MyMethod}",
+      "\t\t\t // write your test code here",      
+      "\t\t\t$0;",
+      "\t\tEND_METHOD",
+      "\tEND_CLASS",     
+      "END_NAMESPACE"
+    ],
+  "description": "Create USING AxUnit.Assert;"
+  }    
+}
+

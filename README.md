@@ -13,6 +13,15 @@ apax add @simatic-ax/snippetscollection
 
 ## AXUnitSupport
 
+### Create a test fixture with AxUnit.Assert
+```json
+"prefix": ["AxUnit test-fixture"]
+```
+
+Output example:
+
+![io](doc/img/ax_test-fixture.gif)
+
 ### Insert Using AxUnit.Assert
 ```json
 "prefix": ["AxUnit, using ax"]
