@@ -11,8 +11,8 @@
         "\t\t$3",
         "\tEND_VAR",
         "\t",
-        "\tMETHOD PUBLIC $4MyMethod",
-        "\t\t;",
+        "\tMETHOD PUBLIC ${4:MyMethod}",
+        "\t\t$0;",
         "\tEND_METHOD",
         "END_CLASS"         
     ],
