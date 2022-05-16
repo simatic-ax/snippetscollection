@@ -1,5 +1,5 @@
 name: '@simatic-ax/snippetscollection'
-version: 0.0.8
+version: 0.0.9
 author: Siemens AG
 type: generic
 variables:
