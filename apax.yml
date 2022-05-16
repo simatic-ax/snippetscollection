@@ -1,5 +1,5 @@
 name: '@simatic-ax/snippetscollection'
-version: 0.0.7
+version: 0.0.8
 author: Siemens AG
 type: generic
 variables:
@@ -30,4 +30,4 @@ files:
   - 'doc'
   - 'snippets'
 dependencies:
-  "@ax/sdk": ^1.0.165
+  "@ax/sdk": 1.0.165
