@@ -1,15 +1,9 @@
 name: '@simatic-ax/snippetscollection'
-version: 0.0.9
+version: 0.0.12
 author: Siemens AG
 type: generic
 variables:
   GITHUB_REG_URL: "https://npm.pkg.github.com"
-
-targets:
-  - '1500'
-  - 'plcsim'
-  - 'axunit-llvm'
-  - 'llvm'
 
 scripts:
   publishlib:
@@ -29,5 +23,3 @@ files:
   - 'changelog.md'
   - 'doc'
   - 'snippets'
-dependencies:
-  "@ax/sdk": 1.0.165
