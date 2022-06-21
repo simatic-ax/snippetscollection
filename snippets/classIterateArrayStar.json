@@ -1,0 +1,18 @@
+{
+    "ClassTemplate": {
+    "scope": "javascript,typescript,st",
+    "prefix": ["Iterate Array *"],
+    "body": [
+        "VAR_TEMP",
+        "\tlb, ub, i : DINT;",
+        "END_VAR",
+        "lb := LOWER_BOUND($1, 1);",
+        "ub := UPPER_BOUND($1, 1);",
+        "",
+        "FOR i := lb TO ub DO",
+        "\t$0;",
+        "END_FOR;"
+    ],
+    "description": "Creates a template of a class including namespace"
+    }
+}
