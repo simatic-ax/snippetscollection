@@ -8,3 +8,8 @@
 - classTemplate.json: There was a mistake (missing brakets) on line 14
 - enum.json: The generic colour example has been changed to a real snippet with tab-able options
 - varSectionsSupport.json: The final cursor position has been changed to be in the newly created section and not after it.
+
+2022-06-21 Version 0.0.13
+- Add snippet for iterate ARRAY[*]
+- Remove unused PlcOpen snippets
+  

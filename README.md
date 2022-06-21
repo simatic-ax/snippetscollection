@@ -150,62 +150,14 @@ Output example:
 
 ![io](doc/img/io_snippet.gif)
 
-## PLCopen interface 
-
+## Iterate ARRAY[*] Snippet
 ```json
-"prefix" : ["plcopen enable"]
+"prefix" : ["Iterate Array*"]
 ```
+Output example:
 
-Output:
-```
-FUNCTION_BLOCK sample
-    VAR_INPUT
-        enable : BOOL;
-    END_VAR
+![io](doc/img//iterate_array_star.gif)
 
-    VAR_OUTPUT
-        busy  : BOOL;
-        valid : BOOL;
-        error : BOOL;
-    END_VAR
-
-    VAR
-    END_VAR
-
-    VAR_TEMP
-    END_VAR
-
-    ;
-
-END_FUNCTION_BLOCK
-```
-
-```json
-"prefix" : ["plcopen execute"]
-```
-
-```
-FUNCTION_BLOCK sample
-    VAR_INPUT
-        execute : BOOL;
-    END_VAR
-
-    VAR_OUTPUT
-        busy  : BOOL;
-        error : BOOL;
-        done  : BOOL;
-    END_VAR
-
-    VAR
-    END_VAR
-
-    VAR_TEMP
-    END_VAR
-
-    ;
-
-END_FUNCTION_BLOCK
-```
 
 ## Contribution
 Thanks for your interest in contributing. Anybody is free to report bugs, unclear documentation, and other problems regarding this repository in the Issues section or, even better, is free to propose any changes to this repository using Merge Requests.
