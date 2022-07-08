@@ -2,7 +2,7 @@
   "VarSectionsClassSupport": {
     "prefix": ["var_ for classes"],
     "body": [
-      "${1|VAR PRIVATE,VAR PROTECTED,VAR PUBLIC|}",
+      "VAR ${1|PRIVATE,PROTECTED,PUBLIC|}",
       "\t$2",
       "END_VAR$0"
     ],

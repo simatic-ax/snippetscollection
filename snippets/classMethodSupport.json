@@ -3,7 +3,7 @@
   "scope": "javascript,typescript,st",
   "prefix": ["method, no return"],
   "body": [
-      "${1|METHOD PUBLIC,METHOD PRIVATE,METHOD PROTECTED|} ${2:MyMethod}",
+      "METHOD ${1|PUBLIC,PRIVATE,PROTECTED|} ${2:MyMethod}",
       "\t$0;",
       "END_METHOD"
   ],
@@ -13,7 +13,7 @@
   "scope": "javascript,typescript,st",
   "prefix": ["method, with return"],
   "body": [
-      "${1|METHOD PUBLIC,METHOD PRIVATE,METHOD PROTECTED|} ${2:MyMethod} : ${3|BOOL,INT,LREAL,WORD,REAL,DINT,UINT,SINT|}",
+      "METHOD ${1|PUBLIC,PRIVATE,PROTECTED|} ${2:MyMethod} : ${3|BOOL,INT,LREAL,WORD,REAL,DINT,UINT,SINT|}",
 	  "\t${2:MyMethod} := $0;",
       "END_METHOD"
   ],
