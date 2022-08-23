@@ -6,7 +6,7 @@ A collection of useful user defined snippets for AX Code.
 To install the snippets collection to your workspace enter the following command in a terminal:
 
 ```
-apax add @simatic-ax/snippetscollection
+apax add @simatic-ax/snippetscollection --dev
 ```
 
 > to install this package you need to login into the GitHub registry. You'll find more information [here](https://github.com/simatic-ax/.sharedstuff/blob/main/doc/personalaccesstoken.md) 
