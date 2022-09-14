@@ -5,7 +5,7 @@ on:
       - release
 
 env:
-  PROJECT_NAME: template-app
+  PROJECT_NAME: snippetscollection
   SCOPE: simatic-ax
   ACTIONS_REPO: simatic-ax/actions
   ACTIONS_LOCAL: ./actions
