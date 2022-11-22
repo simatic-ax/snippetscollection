@@ -1,22 +1,18 @@
+# General information
 name: '@simatic-ax/snippetscollection'
-version: 0.0.13
+version: 0.0.0-placeholder
 author: Siemens AG
+# Description will be displayed in the apax extension
+description: This package contains some useful snippets for ST programming
 type: generic
-variables:
-  GITHUB_REG_URL: "https://npm.pkg.github.com"
-
-scripts:
-  publishlib:
-    - apax publish --package *.apax.tgz --registry $GITHUB_REG_URL
-    - rm *.apax.tgz -f
-
-  createpackage:
-    - apax version $1
-    - apax pack
-
+#URL to the repository
+repository:
+  type: git
+  url: https://github.com/simatic-ax/snippetscollection
+# Registry information, where the package will be published
 registries:
   '@ax-showcase': 'https://npm.pkg.github.com/'
-
+# Files, which will be shipped with the library
 files:
   - 'README.md'
   - 'LICENSE.md'
