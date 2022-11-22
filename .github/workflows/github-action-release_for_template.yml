@@ -3,7 +3,9 @@ on:
   push:
     branches:
       - release
-
+  workflow_dispatch:
+    branches:
+      - release
 env:
   PROJECT_NAME: snippetscollection
   SCOPE: simatic-ax
@@ -77,11 +79,6 @@ jobs:
         uses: ./actions/.github/actions/setup-apax-runner
         with:
           apax-access-token: ${{ secrets.APAX_TOKEN }}
-
-      # - name: "Download artifact"
-      #   uses: actions/download-artifact@v3
-      #   with:
-      #     name: library-artifact
 
       - name: "Login to the private repo"
         run: |
