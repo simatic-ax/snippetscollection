@@ -4,6 +4,13 @@ A collection of useful user defined snippets for AX Code.
 
 ## Install the snippets collection
 
+Before installing the snippets collection, the URL to the package registry need to be defined in the apax.yml
+
+```yml
+registries:
+  '@simatic-ax': 'https://npm.pkg.github.com/'
+```
+
 To install the snippets collection to your workspace enter the following command in a terminal:
 
 ```bash
