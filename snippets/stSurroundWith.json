@@ -1,0 +1,51 @@
+{
+  "surround_if_else": {
+    "scope": "st",
+    "prefix": [
+      "surround with if-else..."
+    ],
+    "body": [
+      "IF (${1:condition}) THEN",
+      "\t${TM_SELECTED_TEXT}",
+      "END_IF;"
+    ],
+    "description": "Surround selected text with if-else"
+  },
+  "surround_for": {
+    "scope": "st",
+    "prefix": [
+      "surround with for-loop..."
+    ],
+    "body": [
+      "FOR Index := ${1:StartValue} TO ${2:EndValue} DO",
+      "\t${TM_SELECTED_TEXT}",
+      "END_FOR;"
+    ],
+    "description": "Surround selected text with for-loop"
+  },
+  "surround_while": {
+    "scope": "st",
+    "prefix": [
+      "surround with while..."
+    ],
+    "body": [
+      "WHILE (${1:condition})",
+      "\t${TM_SELECTED_TEXT}",
+      "END_WHILE;"
+    ],
+    "description": "Surround selected text with while"
+  },
+  "surround_repeat": {
+    "scope": "st",
+    "prefix": [
+      "surround with repeat..."
+    ],
+    "body": [
+      "REPEAT",
+      "\t${TM_SELECTED_TEXT}",
+      "\tUNTIL (${1:condition})",
+      "END_REPEAT;"
+    ],
+    "description": "Surround selected text with repeat"
+  }
+}
