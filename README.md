@@ -70,13 +70,7 @@ Available surround with:
 "prefix" : ["namespace, Siemens"]
 ```
 
-Output:
-
-```iecst
-NAMESPACE Simatic.Ax
-    
-END_NAMESPACE
-```
+![namespace](doc/img/namespace.gif)
 
 ### Snippets for class support
 
