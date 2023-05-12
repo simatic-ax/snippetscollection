@@ -3,8 +3,8 @@
     "scope": "javascript,typescript,st",
     "prefix": ["namespace, Siemens"],
     "body": [
-        "NAMESPACE ${1:Simatic.Ax}",
-        "\t$2",
+        "NAMESPACE Simatic.Ax.${1:<YourNamespace>}",
+        "\t${TM_SELECTED_TEXT}",
         "END_NAMESPACE$0"
     ],
     "description": "Creates an namespace template"
