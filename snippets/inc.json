@@ -1,0 +1,22 @@
+{
+  "increment_variable": {
+    "scope": "st",
+    "prefix": [
+      "increment"
+    ],
+    "body": [
+      "${TM_SELECTED_TEXT} := ${TM_SELECTED_TEXT} + ${1:1};"
+    ],
+    "description": "Increment variable"
+  },
+  "decrement_variable": {
+    "scope": "st",
+    "prefix": [
+      "decrement"
+    ],
+    "body": [
+      "${TM_SELECTED_TEXT} := ${TM_SELECTED_TEXT} - ${1:1};"
+    ],
+    "description": "Decrement variable"
+  }
+}
