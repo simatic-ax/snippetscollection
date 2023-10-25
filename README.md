@@ -58,6 +58,14 @@ LessThan(expected := 0, actual := 0);
 GreaterThan(expected := 0, actual := 0);
 ```
 
+## Code actions 
+
+### Increment / Decrement
+
+![increment](doc/img/inc.gif)
+
+Select the variable and enter the prefixes: **increment** or **decrement**
+
 ## Surround with
 
 ![surround](doc/img/surround.gif)
