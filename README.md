@@ -58,7 +58,7 @@ LessThan(expected := 0, actual := 0);
 GreaterThan(expected := 0, actual := 0);
 ```
 
-## Code actions 
+## Code actions
 
 ### Increment / Decrement
 
