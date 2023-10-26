@@ -1,8 +1,7 @@
-.apax/
-.env/
-[Bb]in/
-[Ll]ibrary/
-[Tt]est[Rr]esult*/
+.apax
+.env
+bin
+obj
+TestResult
 *.tgz
-*.tracerec.json
-apax-lock.json
+assets
