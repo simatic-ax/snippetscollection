@@ -47,5 +47,18 @@
       "END_REPEAT;"
     ],
     "description": "Surround selected text with repeat"
+  },
+  "surround_case": {
+    "scope": "st",
+    "prefix": [
+      "surround with case..."
+    ],
+    "body": [
+      "CASE ${1:selector} OF",
+      "\tCaseList:",
+      "\t\t${TM_SELECTED_TEXT}",
+      "END_CASE;"
+    ],
+    "description": "Surround selected text with case"
   }
 }
