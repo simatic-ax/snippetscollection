@@ -75,7 +75,8 @@ Available surround with:
 - FOR ... END_FOR;
 - IF ... THEN ... ELSE
 - WHILE ... END_WHILE
-- REPEAT .. END_REPEAT
+- REPEAT ... END_REPEAT
+- CASE ... END_CASE
   
 ## Snippets Namespace Support
 
