@@ -11,13 +11,11 @@ repository:
   url: https://github.com/simatic-ax/snippetscollection
 # Registry information, where the package will be published
 registries:
-  '@ax-showcase': 'https://npm.pkg.github.com/'
+  '@simatic-ax': 'https://npm.pkg.github.com/'
 # Files, which will be shipped with the library
 files:
   - 'README.md'
   - 'LICENSE.md'
-  - 'changelog.md'
   - 'doc'
   - 'snippets'
 installStrategy: strict
-apaxVersion: 3.1.0
